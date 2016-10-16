@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		
+		<title>Etch-a-Sketch</title>
+	</head>
+
+	<body>
+		<h1>Etch-a-Sketch Pad</h1>
+		<div id=navbar>
+			<button id="Paintbrush" type="button" onClick="Normal()">Draw</button>
+			<button id="Colorful" type="button" onClick="ChangeColor()">Fun Colors!</button>
+			<button id="Grayscale" type="button" onClick="Grayscale()">Grayscale</button>
+			<button id="Eraser" type="button" onClick="Erase()">Erase</button>
+			<button id="Clear" type="button" onClick="clearIt()">New Sketch</button>
+		</div>
+		<div id="container">
+		</div>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+		<script src="drawing2.js"></script>
+	</body>
+</html>
